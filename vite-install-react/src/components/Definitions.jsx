@@ -5,7 +5,7 @@ class Definitions extends React.Component {
         const {data} = this.props;
         return (
             <dl>
-                {data.map(definitions =><>
+                {data.map(definitions => <>
                     <dt key={definitions.id}>{definitions.dt}</dt>
                     <dd>{definitions.dd}</dd>
                 </>)}
