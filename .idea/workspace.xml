@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vite-install-react/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/.prettierignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/vite.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "flyfarefly"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/flyfarefly/REACT_HOMEWORKS.git",
+    "accountId": "4407ed59-7858-4177-a953-92eb9ce35e0f"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2inG3p9imBXR4pimspO25alWcHE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore_missing_gitignore": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "D:\\MOLCHANOFF IT\\IT HILLEL\\Homework\\REACT_HOMEWORKS\\vite-install-react\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="" />
+      <created>1720118731142</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720118731142</updated>
+      <workItem from="1720118733891" duration="5390000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
