@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vite-install-react/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/.eslintrc.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/.prettierignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/vite.config.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,41 +16,41 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "flyfarefly"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;flyfarefly&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/flyfarefly/REACT_HOMEWORKS.git",
-    "accountId": "4407ed59-7858-4177-a953-92eb9ce35e0f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/flyfarefly/REACT_HOMEWORKS.git&quot;,
+    &quot;accountId&quot;: &quot;4407ed59-7858-4177-a953-92eb9ce35e0f&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2inG3p9imBXR4pimspO25alWcHE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore_missing_gitignore": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "D:\\MOLCHANOFF IT\\IT HILLEL\\Homework\\REACT_HOMEWORKS\\vite-install-react\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\MOLCHANOFF IT\\IT HILLEL\\Homework\\REACT_HOMEWORKS\\vite-install-react\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -76,10 +67,15 @@
       <option name="presentableId" value="Default" />
       <updated>1720118731142</updated>
       <workItem from="1720118733891" duration="5390000" />
+      <workItem from="1720270616449" duration="657000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HW_77 temporary" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_77 temporary" />
   </component>
 </project>
