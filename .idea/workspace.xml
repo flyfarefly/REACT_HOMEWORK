@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="Main fix">
-      <change afterPath="$PROJECT_DIR$/vite-install-react/src/components/Card.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/.eslintrc.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/main.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hw_79" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -75,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
