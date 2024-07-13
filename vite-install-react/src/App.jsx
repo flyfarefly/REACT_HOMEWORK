@@ -1,9 +1,14 @@
-import Card from './components/Card.jsx';
+import ListGroup from './components/ListGroup.jsx';
+import ListGroupItem from './components/ListGroupItem.jsx';
 
 function App() {
   return (
     <>
-      <Card></Card>
+      <ListGroup>
+        <p>one</p>
+        <p>two</p>
+      </ListGroup>
+      <ListGroupItem />
     </>
   );
 }
