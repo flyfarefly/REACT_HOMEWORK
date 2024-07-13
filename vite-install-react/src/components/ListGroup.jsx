@@ -2,26 +2,28 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-const ListGroup = (children, className, tag, ...attrs) => {
-  const classes = classNames(`list-group`, className);
+class ListGroup extends React.Component {
+  render() {
+    const { children, className, ...attrs } = this.props;
 
-  return (
-    <tag className={classes} {...attrs}>
-      {children}
-    </tag>
-  );
-};
+    const classes = classNames(`list-group`, className);
+
+    return (
+      <ul className={classes} {...attrs}>
+        {children}
+      </ul>
+    );
+  }
+}
 
 ListGroup.propTypes = {
   children: PropTypes.node,
-  classNames: PropTypes.string,
-  tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string])
+  classNames: PropTypes.string
 };
 
 ListGroup.defaultProps = {
   children: null,
-  className: ``,
-  tag: 'ul'
+  className: ``
 };
 
 export default ListGroup;

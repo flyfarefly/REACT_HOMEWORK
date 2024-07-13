@@ -4,11 +4,11 @@ import ListGroupItem from './components/ListGroupItem.jsx';
 function App() {
   return (
     <>
-      <ListGroup>
-        <p>one</p>
-        <p>two</p>
-      </ListGroup>
-      <ListGroupItem />
+      <ListGroup />
+      {/* eslint-disable-next-line react/no-children-prop */}
+      <ListGroupItem children={<p>One</p>} />
+      {/* eslint-disable-next-line react/no-children-prop */}
+      <ListGroupItem children={<p>Two</p>} />
     </>
   );
 }

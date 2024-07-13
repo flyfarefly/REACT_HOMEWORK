@@ -1,7 +1,8 @@
-### Homework # ListGroup.jsx
+### Homework #82 ListGroup.jsx
     Реалізуйте компонент ListGroup, який малює переданих дітей, повертаючи їх до списку.
 
     Приклад використання:
+
     <ListGroup>
         <p>one</p>
         <p>two</p>
@@ -15,4 +16,4 @@
     </ul>
     
     Підказки — List Group
-    https://getbootstrap.com/docs/4.0/components/list-group/
+    https://getbootstrap.com/docs/5.3/components/list-group/#basic-example
