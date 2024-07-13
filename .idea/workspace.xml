@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="Main fix">
+    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="HW_81 Readme new">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite-install-react/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/README.md" afterDir="false" />
     </list>
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw_80" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,6 +79,7 @@
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -100,6 +101,31 @@
       <workItem from="1720118733891" duration="5390000" />
       <workItem from="1720270616449" duration="657000" />
     </task>
+    <task id="LOCAL-00001" summary="HW_81 Readme">
+      <option name="closed" value="true" />
+      <created>1720861290409</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720861290409</updated>
+    </task>
+    <task id="LOCAL-00002" summary="back">
+      <option name="closed" value="true" />
+      <created>1720861385185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720861385185</updated>
+    </task>
+    <task id="LOCAL-00003" summary="HW_81 Readme new">
+      <option name="closed" value="true" />
+      <created>1720861449263</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720861449263</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +134,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW_77 temporary" />
     <MESSAGE value="Main fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main fix" />
+    <MESSAGE value="HW_81 Readme" />
+    <MESSAGE value="back" />
+    <MESSAGE value="HW_81 Readme new" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_81 Readme new" />
   </component>
 </project>
