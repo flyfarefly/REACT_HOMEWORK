@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="Main fix" />
+    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="Main fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/.eslintrc.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/components/Alert.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/components/Alert.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw_83" />
+        <entry key="$PROJECT_DIR$" value="hw_80" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

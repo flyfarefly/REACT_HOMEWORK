@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class Alert extends React.Component {
   static defaultProps = {
@@ -18,5 +19,9 @@ class Alert extends React.Component {
     );
   }
 }
+Alert.propTypes = {
+  type: PropTypes.string,
+  children: PropTypes.node
+};
 
 export default Alert;
