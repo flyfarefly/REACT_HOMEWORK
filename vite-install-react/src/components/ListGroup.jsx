@@ -1,29 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import classNames from 'classnames';
+import { Children } from 'react';
 
-class ListGroup extends React.Component {
-  render() {
-    const { children, className, ...attrs } = this.props;
-
-    const classes = classNames(`list-group`, className);
-
-    return (
-      <ul className={classes} {...attrs}>
-        {children}
-      </ul>
-    );
-  }
+export default function ListGroup({ children }) {
+  return (
+    <ul className="list-group">
+      {Children.map(children, (child) => (
+        <li className="list-group-item" key={child.id}>
+          {child}
+        </li>
+      ))}
+    </ul>
+  );
 }
-
-ListGroup.propTypes = {
-  children: PropTypes.node,
-  classNames: PropTypes.string
-};
-
-ListGroup.defaultProps = {
-  children: null,
-  className: ``
-};
-
-export default ListGroup;
