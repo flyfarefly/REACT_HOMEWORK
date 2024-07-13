@@ -6,11 +6,14 @@
     type - тип алерту, може набувати одне з наступних значень: 
     primary, secondary, success, danger, warning, info, light, dark;
     
-    Приклад використання: link
-    https://github.com/junjun-it-courses/react-hw/blob/master/task-5/using.html
-    Висновок: link
-    https://github.com/junjun-it-courses/react-hw/blob/master/task-5/output.html
-    
+    Приклад використання: 
+   
+    <Alert type="warning" text="what is love?" />;
+
+    Виведення: 
+   
+    <div class="alert alert-warning" role="alert">what is love?</div>    
+
     Підказки
     
     Alerts

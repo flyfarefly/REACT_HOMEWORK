@@ -1,9 +1,9 @@
-import Card from './components/Card.jsx';
+import Alert from './components/Alert.jsx';
 
 function App() {
   return (
     <>
-      <Card></Card>
+      <Alert></Alert>
     </>
   );
 }
