@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="Main fix">
+    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="Main npm i eslint-config-airbnb">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/.eslintrc.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/main.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw_79" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,7 +100,42 @@
       <updated>1720118731142</updated>
       <workItem from="1720118733891" duration="5390000" />
       <workItem from="1720270616449" duration="657000" />
+      <workItem from="1720723369944" duration="2521000" />
+      <workItem from="1720820289053" duration="1119000" />
     </task>
+    <task id="LOCAL-00001" summary="Main Classnames">
+      <option name="closed" value="true" />
+      <created>1720723750822</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720723750822</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Main npm i eslint-config-airbnb">
+      <option name="closed" value="true" />
+      <created>1720810013507</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720810013507</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Main npm i eslint-config-airbnb">
+      <option name="closed" value="true" />
+      <created>1720813117738</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720813117738</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Main npm i eslint-config-airbnb">
+      <option name="closed" value="true" />
+      <created>1720813133756</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720813133756</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +144,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW_77 temporary" />
     <MESSAGE value="Main fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main fix" />
+    <MESSAGE value="Main Classnames" />
+    <MESSAGE value="Main npm i eslint-config-airbnb" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main npm i eslint-config-airbnb" />
   </component>
 </project>
