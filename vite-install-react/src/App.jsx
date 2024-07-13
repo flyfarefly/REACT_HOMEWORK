@@ -1,9 +1,9 @@
-import Card from './components/Card.jsx';
+import BtnGroup from './components/BtnGroup.jsx';
 
 function App() {
   return (
     <>
-      <Card></Card>
+      <BtnGroup></BtnGroup>
     </>
   );
 }
