@@ -4,13 +4,18 @@ import classNames from 'classnames';
 class BtnGroup extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { isToggleOn: true };
+    this.state = {
+      isToggleOn: true,
+      isToggleOff: false
+    };
+
     this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick = () => {
     this.setState((prevState) => ({
-      isToggleOn: !prevState.isToggleOn
+      isToggleOn: !prevState.isToggleOn,
+      isToggleOff: !prevState.isToggleOff
     }));
   };
 
@@ -31,7 +36,7 @@ class BtnGroup extends React.Component {
           type="button"
           onClick={this.handleClick}
           className="btn btn-secondary right">
-          {this.state.isToggleOn ? 'Вимкнено' : 'Увімкено'}
+          {this.state.isToggleOff ? 'Увімкено' : 'Вимкнено'}
         </button>
       </div>
     );
