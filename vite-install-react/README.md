@@ -17,6 +17,6 @@
     Підказки
     
     Button Group
-    https://getbootstrap.com/docs/5.1/components/button-group/
+    https://getbootstrap.com/docs/5.3/components/button-group/
 
     https://www.npmjs.com/package/classnames - для маніпуляції з класами юзайте цю бібліотеку
