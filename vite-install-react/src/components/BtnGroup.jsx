@@ -6,13 +6,16 @@ class BtnGroup extends React.Component {
     super(props);
     this.state = {
       isToggleOn: true,
-      isToggleOff: false
+      isToggleOff: false,
+      secondary: false
     };
 
     this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick = () => {
+    this.setState(({ secondary }) => ({ secondary: !secondary }));
+
     this.setState((prevState) => ({
       isToggleOn: !prevState.isToggleOn,
       isToggleOff: !prevState.isToggleOff
@@ -20,6 +23,16 @@ class BtnGroup extends React.Component {
   };
 
   render() {
+    const buttonClassLeft = classNames([
+      'btn btn-secondary',
+      this.state.secondary ? 'left active' : 'left'
+    ]);
+
+    const buttonClassRight = classNames([
+      'btn btn-secondary',
+      this.state.secondary ? 'right active' : 'right'
+    ]);
+
     return (
       <div
         className="btn-group btn-group-lg"
@@ -27,16 +40,16 @@ class BtnGroup extends React.Component {
         aria-label="Basic example">
         <button
           type="button"
-          onClick={this.handleClick}
-          className="btn btn-secondary left">
+          className={buttonClassLeft}
+          onClick={this.handleClick}>
           {this.state.isToggleOn ? 'Увімкено' : 'Вимкнено'}
         </button>
 
         <button
           type="button"
-          onClick={this.handleClick}
-          className="btn btn-secondary right">
-          {this.state.isToggleOff ? 'Увімкено' : 'Вимкнено'}
+          className={buttonClassRight}
+          onClick={this.handleClick}>
+          {this.state.isToggleOff ? 'Вимкнено' : 'Увімкено'}
         </button>
       </div>
     );
