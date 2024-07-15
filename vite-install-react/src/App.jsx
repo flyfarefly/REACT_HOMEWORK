@@ -1,9 +1,10 @@
-import Card from './components/Card.jsx';
+import Collapse from './components/Collapse.jsx';
 
 function App() {
+  const text = 'collapse me';
   return (
     <>
-      <Card></Card>
+      <Collapse text={text} opened={false} />
     </>
   );
 }
