@@ -30,7 +30,7 @@ class BtnGroup extends React.Component {
 
     const buttonClassRight = classNames([
       'btn btn-secondary',
-      this.state.secondary ? 'right active' : 'right'
+      this.state.secondary ? 'right' : 'right active'
     ]);
 
     return (
@@ -49,7 +49,7 @@ class BtnGroup extends React.Component {
           type="button"
           className={buttonClassRight}
           onClick={this.handleClick}>
-          {this.state.isToggleOff ? 'Вимкнено' : 'Увімкено'}
+          {this.state.isToggleOff ? 'Увімкено' : 'Вимкнено'}
         </button>
       </div>
     );
@@ -58,7 +58,8 @@ class BtnGroup extends React.Component {
 
 BtnGroup.defaultProps = {
   isToggleOn: false,
-  isToggleOff: false
+  isToggleOff: false,
+  secondary: true
 };
 
 export default BtnGroup;
