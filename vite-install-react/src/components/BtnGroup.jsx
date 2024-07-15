@@ -43,4 +43,9 @@ class BtnGroup extends React.Component {
   }
 }
 
+BtnGroup.defaultProps = {
+  isToggleOn: false,
+  isToggleOff: false
+};
+
 export default BtnGroup;
