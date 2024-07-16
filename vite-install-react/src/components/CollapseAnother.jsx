@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 
-class Collapse extends React.Component {
+class CollapseAnother extends React.Component {
   constructor(props) {
     super(props);
 
@@ -10,7 +10,6 @@ class Collapse extends React.Component {
       text: null
     };
   }
-
   render() {
     const collapseHide = classNames([
       'collapse',
@@ -30,7 +29,8 @@ class Collapse extends React.Component {
             Link with href
           </a>
         </p>
-        <div className={collapseHide}>
+
+        <div className={collapseHide} aria-expanded={this.state.open}>
           {/* eslint-disable-next-line react/prop-types */}
           <div className="card card-body">{this.props.text}</div>
         </div>
@@ -38,9 +38,10 @@ class Collapse extends React.Component {
     );
   }
 }
-Collapse.defaultProps = {
+
+CollapseAnother.defaultProps = {
   open: false,
   text: null
 };
 
-export default Collapse;
+export default CollapseAnother;
