@@ -1,17 +1,43 @@
 import React from 'react';
+import classNames from 'classnames';
 
 class Carousel extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      isActive: true
+    };
+  }
+  handleClick = () => {
+    this.setState(({ isActive }) => ({ isActive: !isActive }));
+  };
   render() {
+    // const myCarouselElement = document.querySelector('#myCarousel');
+
+    // const carousel = new bootstrap.Carousel(myCarouselElement, {
+    //   interval: 2000,
+    //   touch: false
+    // });
+
+    const carouselItem = classNames([
+      'carousel-item',
+      this.state.isActive ? 'active' : null
+    ]);
+
     return (
-      <div id="carousel" className="carousel slide" data-bs-ride="carousel">
+      <div
+        id="carousel"
+        className="carousel slide"
+        data-bs-ride="carousel"
+        onClick={this.handleClick}>
         <div className="carousel-inner">
-          <div className="carousel-item active">
+          <div className={carouselItem}>
             <img alt="" className="d-block w-100" src="../images/first.jpg" />
           </div>
-          <div className="carousel-item">
+          <div className={carouselItem}>
             <img alt="" className="d-block w-100" src="../images/second.jpg" />
           </div>
-          <div className="carousel-item">
+          <div className={carouselItem}>
             <img alt="" className="d-block w-100" src="../images/third.jpg" />
           </div>
         </div>
