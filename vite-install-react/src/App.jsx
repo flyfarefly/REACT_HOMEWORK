@@ -1,9 +1,9 @@
-import Card from './components/Card.jsx';
+import MyForm from './components/MyForm.jsx';
 
 function App() {
   return (
     <>
-      <Card></Card>
+      <MyForm></MyForm>
     </>
   );
 }

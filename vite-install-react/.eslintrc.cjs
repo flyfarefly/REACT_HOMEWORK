@@ -13,7 +13,7 @@ module.exports = {
   plugins: ['react-refresh'],
   rules: {
     'prettier/ prettier': [
-      'warn',
+      'off',
       {
         endOfline: 'auto',
       },

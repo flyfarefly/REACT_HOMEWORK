@@ -15,12 +15,13 @@
 
 
     Форма - layout.html
-    https://github.com/junjun-it-courses/react-hw/blob/master/task-10/layout.html
+https://github.com/junjun-it-courses/react-hw/blob/master/task-10/layout.html
 
     Після відправки форми - layout2.html
-    https://github.com/junjun-it-courses/react-hw/blob/master/task-10/layout2.html
+https://github.com/junjun-it-courses/react-hw/blob/master/task-10/layout2.html
 
-    Або можете використати - https://react-bootstrap.netlify.app/docs/
+    Або можете використати - 
+https://react-bootstrap.netlify.app/docs/
 
 
 
@@ -29,4 +30,4 @@
     Підказки
 
     Forms
-    https://getbootstrap.com/docs/5.1/forms/overview/
+https://getbootstrap.com/docs/5.1/forms/overview/
