@@ -13,6 +13,8 @@ class MyForm extends React.Component {
         acceptRules: 'false'
       }
     };
+
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   handleChange = (event) => {
@@ -23,11 +25,19 @@ class MyForm extends React.Component {
     this.setState({ formData });
   };
 
+  handleSubmit(event) {
+    event.preventDefault();
+
+    // Or you can work with it as a plain object:
+    const formJson = Object.assign({}, this.state.formData);
+    console.log(formJson);
+  }
+
   render() {
     const isChecked = true; // Ваше значення boolean
     return (
       <>
-        <form name="myForm">
+        <form name="myForm " method="post" onSubmit={this.handleSubmit}>
           <div className="col-md-6 mb-3">
             <label htmlFor="email" className="col-form-label">
               Email
@@ -116,10 +126,7 @@ class MyForm extends React.Component {
               </label>
             </div>
           </div>
-          <button
-            onChange={this.handleChange}
-            type="submit"
-            className="btn btn-primary">
+          <button type="submit" className="btn btn-primary">
             Sign in
           </button>
         </form>
