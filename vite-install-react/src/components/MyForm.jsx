@@ -10,7 +10,7 @@ class MyForm extends React.Component {
         address: '',
         city: '',
         country: '',
-        acceptRules: ''
+        acceptRules: 'false'
       }
     };
   }
@@ -25,8 +25,6 @@ class MyForm extends React.Component {
 
   render() {
     const isChecked = true; // Ваше значення boolean
-    // const acceptRules = isChecked ? 'true' : 'false';
-
     return (
       <>
         <form name="myForm">
