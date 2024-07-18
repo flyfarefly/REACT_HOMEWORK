@@ -1,5 +1,5 @@
-import React from 'react';
-import classNames from 'classnames';
+// import React from 'react';
+// import classNames from 'classnames';
 
 class Carousel extends React.Component {
   constructor() {
@@ -8,11 +8,17 @@ class Carousel extends React.Component {
       isActive: true
     };
   }
+
   handleClick = () => {
     this.setState(({ isActive }) => ({ isActive: !isActive }));
   };
+
+  onChange = (e) => {
+    this.setState({ text: e.target.value });
+  };
+
   render() {
-    // const myCarouselElement = document.querySelector('#myCarousel');
+    const myCarouselElement = document.querySelector('#myCarousel');
 
     // const carousel = new bootstrap.Carousel(myCarouselElement, {
     //   interval: 2000,
