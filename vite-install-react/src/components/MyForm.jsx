@@ -28,9 +28,6 @@ class MyForm extends React.Component {
 
   handleSubmit(event) {
     event.preventDefault();
-    const form = event.target;
-    const formData = new FormData(form);
-    const formJson = Object.fromEntries(formData.entries());
   }
 
   render() {
