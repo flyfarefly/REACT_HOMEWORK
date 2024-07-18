@@ -1,64 +1,44 @@
-import React from 'react';
-class MyTable extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      formData: {
-        email: '',
-        password: '',
-        address: '',
-        city: '',
-        country: '',
-        acceptRules: 'false'
-      }
-    };
-  }
+import React, { Component } from 'react';
 
-  handleChange = (event) => {
-    const formData = {
-      ...this.state.formData,
-      [event.target.name]: event.target.value
-    };
-    this.setState({ formData });
-  };
-
+class MyTable extends Component {
   render() {
+    const { formData } = this.props;
     return (
       <div>
+        <table className="table">
+          <tbody>
+            <tr>
+              <td>Accept Rules</td>
+              <td>{formData.acceptRules}</td>
+            </tr>
+            <tr>
+              <td>address</td>
+              <td>{formData.address}</td>
+            </tr>
+            <tr>
+              <td>city</td>
+              <td>{formData.city}</td>
+            </tr>
+            <tr>
+              <td>country</td>
+              <td>{formData.country}</td>
+            </tr>
+            <tr>
+              <td>email</td>
+              <td>{formData.email}</td>
+            </tr>
+            <tr>
+              <td>password</td>
+              <td>{formData.password}</td>
+            </tr>
+          </tbody>
+        </table>
         <button
           onChange={this.handleChange}
           type="button"
           className="btn btn-primary">
           Back
         </button>
-        <table className="table">
-          <tbody>
-            <tr>
-              <td>acceptRules</td>
-              <td>{this.props.acceptRules}</td>
-            </tr>
-            <tr>
-              <td>address</td>
-              <td>{this.props.address}</td>
-            </tr>
-            <tr>
-              <td>city</td>
-              <td>{this.props.city}</td>
-            </tr>
-            <tr>
-              <td>country</td>
-              <td>{this.props.country}</td>
-            </tr>
-            <tr>
-              <td>email</td>
-              <td>{this.props.email}</td>
-            </tr>
-            <tr>
-              <td>password</td>
-              <td>{this.props.password}</td>
-            </tr>
-          </tbody>
-        </table>
       </div>
     );
   }

@@ -1,4 +1,5 @@
 import React from 'react';
+import MyTable from './MyTable.jsx';
 
 class MyForm extends React.Component {
   constructor(props) {
@@ -27,14 +28,16 @@ class MyForm extends React.Component {
 
   handleSubmit(event) {
     event.preventDefault();
+    const form = event.target;
+    const formData = new FormData(form);
+    const formJson = Object.fromEntries(formData.entries());
 
-    // Or you can work with it as a plain object:
-    const formJson = Object.assign({}, this.state.formData);
     console.log(formJson);
+    console.log('Дані з форми:', this.state.formData);
   }
 
   render() {
-    const isChecked = true; // Ваше значення boolean
+    const isChecked = true;
     return (
       <>
         <form name="myForm " method="post" onSubmit={this.handleSubmit}>
@@ -130,6 +133,7 @@ class MyForm extends React.Component {
             Sign in
           </button>
         </form>
+        <MyTable formData={this.state.formData} />
       </>
     );
   }
