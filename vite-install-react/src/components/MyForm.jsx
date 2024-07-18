@@ -31,9 +31,6 @@ class MyForm extends React.Component {
     const form = event.target;
     const formData = new FormData(form);
     const formJson = Object.fromEntries(formData.entries());
-
-    console.log(formJson);
-    console.log('Дані з форми:', this.state.formData);
   }
 
   render() {
