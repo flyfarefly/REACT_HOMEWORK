@@ -3,7 +3,12 @@ import Card from './components/Card.jsx';
 function App() {
   return (
     <>
-      <Card></Card>
+      <Card>
+        <Card.Body body={1}>
+          <Card.Title>Title</Card.Title>
+          <Card.Text>Text</Card.Text>
+        </Card.Body>
+      </Card>
     </>
   );
 }

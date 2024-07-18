@@ -1,21 +1,21 @@
 import React from 'react';
+import Body from './Body';
+import Title from './Title';
+import Text from './Text';
+import PropTypes from 'prop-types';
 
 class Card extends React.Component {
+  static Body = Body;
+  static Title = Title;
+  static Text = Text;
+
   render() {
-    return (
-      <div className="card">
-        <div className="card-body">
-          <h4 className="card-title">Card title</h4>
-          <p className="card-text">
-            Some quick example text to build on the card
-          </p>
-          <button type="button" className="btn btn-primary">
-            Go somewhere
-          </button>
-        </div>
-      </div>
-    );
+    return <div className="card">{this.props.children}</div>;
   }
 }
+
+Card.propTypes = {
+  children: PropTypes.node
+};
 
 export default Card;
