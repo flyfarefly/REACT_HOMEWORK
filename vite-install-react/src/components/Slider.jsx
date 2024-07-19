@@ -28,65 +28,51 @@ class Slider extends Component {
     const activeImage = images[currentIndex];
 
     return (
-      <div className="slider">
-        <img src={activeImage} alt={`Slide ${currentIndex}`} />
-        {/*<img*/}
-        {/*  src={activeImage}*/}
-        {/*  style={{ width: '100%', height: '100%' }}*/}
-        {/*  alt={`Slide ${currentIndex}`}*/}
-        {/*  className="d-block w-100"*/}
-        {/*  src=""*/}
-        {/*/>*/}
-        <button onClick={this.handlePrev}>Назад</button>
-        <button onClick={this.handleNext}>Вперед</button>
-      </div>
-      // <div
-      //   id="carousel"
-      //   className="carousel slide"
-      //   data-bs-ride="carousel"
-      //   onClick={this.handleClick}>
-      //   <div className="carousel-inner">
-      //     <div className={activeImage}>
-      //       <img
-      //         alt={`Slide ${currentIndex}`}
-      //         className="d-block w-100"
-      //         src="../images/first.jpg"
-      //       />
-      //     </div>
-      //     <div className={activeImage}>
-      //       <img
-      //         alt={`Slide ${currentIndex}`}
-      //         className="d-block w-100"
-      //         src="../images/second.jpg"
-      //       />
-      //     </div>
-      //     <div className={activeImage}>
-      //       <img
-      //         alt={`Slide ${currentIndex}`}
-      //         className="d-block w-100"
-      //         src="../images/third.jpg"
-      //       />
-      //     </div>
-      //   </div>
-      //   <button
-      //     onClick={this.handlePrev}
-      //     className="carousel-control-prev"
-      //     data-bs-target="#carousel"
-      //     type="button"
-      //     data-bs-slide="prev">
-      //     <span className="carousel-control-prev-icon" aria-hidden="true" />
-      //     <span className="visually-hidden">Previous</span>
-      //   </button>
-      //   <button
-      //     onClick={this.handleNext}
-      //     className="carousel-control-next"
-      //     data-bs-target="#carousel"
-      //     type="button"
-      //     data-bs-slide="next">
-      //     <span className="carousel-control-next-icon" aria-hidden="true" />
-      //     <span className="visually-hidden">Next</span>
-      //   </button>
+      // <div className="slider">
+      //   <img src={activeImage} alt={`Slide ${currentIndex}`} />
+      //   <img
+      //     src={activeImage}
+      //     style={{ width: '100%', height: '100%' }}
+      //     alt={`Slide ${currentIndex}`}
+      //     className="d-block w-100"
+      //     src=""
+      //   />
+      //   <button onClick={this.handlePrev}>Назад</button>
+      //   <button onClick={this.handleNext}>Вперед</button>
       // </div>
+      <div
+        id="carousel"
+        className="carousel slide"
+        data-bs-ride="carousel"
+        onClick={this.handleClick}>
+        <div className="carousel-inner">
+          <div className={activeImage}>
+            <img
+              alt={`Slide ${currentIndex}`}
+              className="d-block w-100"
+              src="../images/first.jpg"
+            />
+          </div>
+        </div>
+        <button
+          onClick={this.handlePrev}
+          className="carousel-control-prev"
+          data-bs-target="#carousel"
+          type="button"
+          data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true" />
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button
+          onClick={this.handleNext}
+          className="carousel-control-next"
+          data-bs-target="#carousel"
+          type="button"
+          data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true" />
+          <span className="visually-hidden">Next</span>
+        </button>
+      </div>
     );
   }
 }
