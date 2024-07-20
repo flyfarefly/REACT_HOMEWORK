@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-class Slider extends Component {
+class Slider extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -28,29 +29,13 @@ class Slider extends Component {
     const activeImage = images[currentIndex];
 
     return (
-      // <div className="slider">
-      //   <img src={activeImage} alt={`Slide ${currentIndex}`} />
-      //   <img
-      //     src={activeImage}
-      //     style={{ width: '100%', height: '100%' }}
-      //     alt={`Slide ${currentIndex}`}
-      //     className="d-block w-100"
-      //     src=""
-      //   />
-      //   <button onClick={this.handlePrev}>Назад</button>
-      //   <button onClick={this.handleNext}>Вперед</button>
-      // </div>
-      <div
-        id="carousel"
-        className="carousel slide"
-        data-bs-ride="carousel"
-        onClick={this.handleClick}>
+      <div id="carousel" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className={activeImage}>
             <img
               alt={`Slide ${currentIndex}`}
               className="d-block w-100"
-              src="../images/first.jpg"
+              src={activeImage}
             />
           </div>
         </div>
@@ -76,5 +61,9 @@ class Slider extends Component {
     );
   }
 }
+
+Slider.propTypes = {
+  images: PropTypes.array.isRequired
+};
 
 export default Slider;
