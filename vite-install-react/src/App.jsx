@@ -1,9 +1,9 @@
-import Card from './components/Card.jsx';
+import Component from './components/Component.jsx';
 
 function App() {
   return (
     <>
-      <Card></Card>
+      <Component></Component>
     </>
   );
 }

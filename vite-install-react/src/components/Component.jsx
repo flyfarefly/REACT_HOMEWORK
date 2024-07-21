@@ -1,4 +1,8 @@
-export default class Component extends React.Component {
+import React from 'react';
+import Modal from './Modal.jsx';
+import PropTypes from 'prop-types';
+
+class Component extends React.Component {
   state = { modal: false };
 
   toggle = (e) => {
@@ -34,3 +38,12 @@ export default class Component extends React.Component {
     );
   }
 }
+
+Component.propTypes = {
+  body: PropTypes.string,
+  footer: PropTypes.string,
+  header: PropTypes.string,
+  children: PropTypes.node
+};
+
+export default Component;
