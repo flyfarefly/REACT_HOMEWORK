@@ -1,10 +1,13 @@
-import Card from './components/Card.jsx';
+// eslint-disable-next-line no-unused-vars
+import React from 'react';
+import TodoBox from './components/TodoBox.jsx'; // Переконайтеся, що шлях до файлу TodoBox вірний
 
 function App() {
   return (
-    <>
-      <Card></Card>
-    </>
+    <div>
+      <h1>My Todo List</h1>
+      <TodoBox />
+    </div>
   );
 }
 
