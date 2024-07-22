@@ -1,11 +1,10 @@
 import React from 'react';
-import Modal from './Modal.jsx';
-import PropTypes from 'prop-types';
+import Modal from './Modal'; // Переконайтеся, що шлях до файлу Modal вірний
 
 class Component extends React.Component {
   state = { modal: false };
 
-  toggle = (e) => {
+  toggle = () => {
     this.setState({
       modal: !this.state.modal
     });
@@ -38,12 +37,5 @@ class Component extends React.Component {
     );
   }
 }
-
-Component.propTypes = {
-  body: PropTypes.string,
-  footer: PropTypes.string,
-  header: PropTypes.string,
-  children: PropTypes.node
-};
 
 export default Component;

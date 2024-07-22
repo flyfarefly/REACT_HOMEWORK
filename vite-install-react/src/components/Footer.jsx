@@ -1,10 +1,14 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 
-const Footer = (props) => <div className="modal-footer">{props.children}</div>;
+class Footer extends React.Component {
+  render() {
+    const { children } = this.props;
+    return <div className="modal-footer">{children}</div>;
+  }
+}
 
 Footer.propTypes = {
-  footer: PropTypes.elementType,
   children: PropTypes.node
 };
-
 export default Footer;

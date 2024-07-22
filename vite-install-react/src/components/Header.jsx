@@ -3,22 +3,24 @@ import PropTypes from 'prop-types';
 
 class Header extends React.Component {
   render() {
+    const { toggle, children } = this.props;
     return (
       <div className="modal-header">
-        <div className="modal-title">{this.props.children}</div>
+        <h5 className="modal-title">{children}</h5>
         <button
           type="button"
           className="btn-close"
           data-bs-dismiss="modal"
-          aria-label="Close"></button>
+          aria-label="Close"
+          onClick={toggle}></button>
       </div>
     );
   }
 }
 
 Header.propTypes = {
-  header: PropTypes.elementType,
-  children: PropTypes.node
+  children: PropTypes.node,
+  toggle: PropTypes.func
 };
 
 export default Header;

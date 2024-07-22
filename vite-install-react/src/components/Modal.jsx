@@ -1,25 +1,25 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-
-import Body from './Body';
-import Header from './Header';
+import Header from './Header'; // Переконайтеся, що шлях до файлу Header вірний
+import Body from './Body'; // Переконайтеся, що шлях до файлу Body вірний
 import Footer from './Footer';
+import PropTypes from 'prop-types'; // Переконайтеся, що шлях до файлу Footer вірний
 
 class Modal extends React.Component {
+  static Header = Header;
   static Body = Body;
   static Footer = Footer;
-  static Header = Header;
 
   render() {
+    const { isOpen, children } = this.props;
+    if (!isOpen) return null;
+
     return (
-      // <div className="modal" style={{ display: 'none' }} role="dialog">
-      <div className="modal fade show" style={{ display: 'block' }}>
+      <div
+        className="modal fade show"
+        style={{ display: 'block' }}
+        role="dialog">
         <div className="modal-dialog">
-          <div className="modal-content">
-            <Header header={this.props.children} />
-            <Body body={this.props.children} />
-            <Footer footer={this.props.children} />
-          </div>
+          <div className="modal-content">{children}</div>
         </div>
       </div>
     );
@@ -27,9 +27,7 @@ class Modal extends React.Component {
 }
 
 Modal.propTypes = {
-  children: PropTypes.node
+  isOpen: PropTypes.bool,
+  children: PropTypes.node.isRequired
 };
-
-Modal.defaultProps = {};
-
 export default Modal;
