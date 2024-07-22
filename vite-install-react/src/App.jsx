@@ -1,7 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import TodoBox from './components/TodoBox.jsx'; // Переконайтеся, що шлях до файлу TodoBox вірний
-
+import TodoBox from './components/TodoBox.jsx';
 function App() {
   return (
     <div>
