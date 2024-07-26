@@ -6,58 +6,34 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      users: [],
       posts: []
     };
-    this.fetchUsers();
+    this.fetchPosts();
   }
 
-  async fetchUsers() {
-    const request = await fetch('https://jsonplaceholder.typicode.com/users');
+  async fetchPosts() {
+    const request = await fetch('https://jsonplaceholder.typicode.com/posts');
     const data = await request.json();
-    const filteredData = data.map(({ name, id }) => {
-      return { name, id };
-    });
-    this.setState({ users: filteredData });
-  }
-
-  handleClickOnListItem = async ({ id }) => {
-    const request = await fetch(
-      'https://jsonplaceholder.typicode.com/posts?userId=' + id
-    );
-    const data = await request.json();
-    const styledPosts = data.map(({ title, body }) => {
+    const styledPosts = data.map(({ id, title, body }) => {
       return {
         content: (
-          <div>
-            <h6>{title}</h6>
-            <p>{body}</p>
-          </div>
+          <li className="posts_single-post" data-post-id={id}>
+            <h3 className="posts__post-title">{title}</h3>
+            <p className="posts__post-description">{body}</p>
+          </li>
         ),
-
         title,
         body
       };
     });
     this.setState({ posts: styledPosts });
-  };
+  }
 
   render() {
     return (
       <main className="users pt-5">
         <Container>
           <Row>
-            <Col xs={4}>
-              {this.state.users.length ? (
-                <List
-                  data={this.state.users}
-                  itemToShow="name"
-                  handleClick={this.handleClickOnListItem}
-                />
-              ) : (
-                'Loading...'
-              )}
-            </Col>
             <Col xs={8}>
               <List data={this.state.posts} itemToShow="content" />
             </Col>
