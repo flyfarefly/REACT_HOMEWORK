@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="Main fix">
+    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="HW_92 Complete">
       <change beforePath="$PROJECT_DIR$/vite-install-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite-install-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/package.json" afterDir="false" />
     </list>
@@ -17,16 +17,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JSX File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw_82" />
+        <entry key="$PROJECT_DIR$" value="hw_92" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -49,20 +53,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\MOLCHANOFF IT\\IT HILLEL\\Homework\\REACT_HOMEWORKS\\vite-install-react\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore_missing_gitignore": "true",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "D:\\MOLCHANOFF IT\\IT HILLEL\\Homework\\REACT_HOMEWORKS\\vite-install-react\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.3.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\components\List" />
+      <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\components\TodoList" />
+      <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\components\TodoItem" />
+      <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\components\TodoForm" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/vite-install-react/package.json" />
@@ -76,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.dev" />
@@ -101,14 +116,382 @@
       <workItem from="1720118733891" duration="5390000" />
       <workItem from="1720270616449" duration="657000" />
     </task>
+    <task id="LOCAL-00001" summary="HW_83 State v1">
+      <option name="closed" value="true" />
+      <created>1720984735617</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720984735617</updated>
+    </task>
+    <task id="LOCAL-00002" summary="HW_83 State v2 isToggleOn">
+      <option name="closed" value="true" />
+      <created>1720993753920</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720993753920</updated>
+    </task>
+    <task id="LOCAL-00003" summary="HW_83 State v2 isToggleOn defaultProps">
+      <option name="closed" value="true" />
+      <created>1721038217279</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721038217279</updated>
+    </task>
+    <task id="LOCAL-00004" summary="HW_83 State v2 isToggleOn defaultProps active">
+      <option name="closed" value="true" />
+      <created>1721044445564</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721044445564</updated>
+    </task>
+    <task id="LOCAL-00005" summary="HW_83 State v2 isToggleOn defaultProps active true">
+      <option name="closed" value="true" />
+      <created>1721045058814</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721045058814</updated>
+    </task>
+    <task id="LOCAL-00006" summary="HW_86 Readme">
+      <option name="closed" value="true" />
+      <created>1721067965840</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721067965840</updated>
+    </task>
+    <task id="LOCAL-00007" summary="HW_85 Initial conditions">
+      <option name="closed" value="true" />
+      <created>1721068697899</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721068697899</updated>
+    </task>
+    <task id="LOCAL-00008" summary="HW_84 Initial conditions">
+      <option name="closed" value="true" />
+      <created>1721069828476</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721069828477</updated>
+    </task>
+    <task id="LOCAL-00009" summary="HW_84 Complete">
+      <option name="closed" value="true" />
+      <created>1721079549104</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721079549104</updated>
+    </task>
+    <task id="LOCAL-00010" summary="HW_85 Complete .gitignore">
+      <option name="closed" value="true" />
+      <created>1721080072088</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721080072088</updated>
+    </task>
+    <task id="LOCAL-00011" summary="HW_84 item active eslint">
+      <option name="closed" value="true" />
+      <created>1721127618187</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721127618187</updated>
+    </task>
+    <task id="LOCAL-00012" summary="HW_84.1 Bootstrap">
+      <option name="closed" value="true" />
+      <created>1721128245036</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721128245036</updated>
+    </task>
+    <task id="LOCAL-00013" summary="HW_85.1 Complete with aria-expanded">
+      <option name="closed" value="true" />
+      <created>1721169211167</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721169211167</updated>
+    </task>
+    <task id="LOCAL-00014" summary="HW_86 Without submit">
+      <option name="closed" value="true" />
+      <created>1721250871349</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1721250871349</updated>
+    </task>
+    <task id="LOCAL-00015" summary="HW_86 Without submit with table">
+      <option name="closed" value="true" />
+      <created>1721288727064</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1721288727064</updated>
+    </task>
+    <task id="LOCAL-00016" summary="HW_86 Without submit with table json submit">
+      <option name="closed" value="true" />
+      <created>1721293400893</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1721293400893</updated>
+    </task>
+    <task id="LOCAL-00017" summary="HW_86 Submit no back">
+      <option name="closed" value="true" />
+      <created>1721312779077</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1721312779077</updated>
+    </task>
+    <task id="LOCAL-00018" summary="HW_86 Submit no back without console.log">
+      <option name="closed" value="true" />
+      <created>1721312827732</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1721312827732</updated>
+    </task>
+    <task id="LOCAL-00019" summary="HW_86 Submit no back without console.log">
+      <option name="closed" value="true" />
+      <created>1721313066017</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1721313066017</updated>
+    </task>
+    <task id="LOCAL-00020" summary="HW_86 Submit no back without console.log">
+      <option name="closed" value="true" />
+      <created>1721313070875</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1721313070875</updated>
+    </task>
+    <task id="LOCAL-00021" summary="HW_84 Temporary">
+      <option name="closed" value="true" />
+      <created>1721327353864</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1721327353864</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Main. Link bootstrap, prettier off.">
+      <option name="closed" value="true" />
+      <created>1721327849872</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1721327849872</updated>
+    </task>
+    <task id="LOCAL-00023" summary="HW_89 Card complete.">
+      <option name="closed" value="true" />
+      <created>1721334720768</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1721334720768</updated>
+    </task>
+    <task id="LOCAL-00024" summary="HW_84 import images">
+      <option name="closed" value="true" />
+      <created>1721383649276</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1721383649276</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Main fix dot html">
+      <option name="closed" value="true" />
+      <created>1721383904177</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1721383904177</updated>
+    </task>
+    <task id="LOCAL-00026" summary="HW_87 Conditions">
+      <option name="closed" value="true" />
+      <created>1721384287005</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1721384287005</updated>
+    </task>
+    <task id="LOCAL-00027" summary="HW_88 Conditions">
+      <option name="closed" value="true" />
+      <created>1721384873111</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1721384873111</updated>
+    </task>
+    <task id="LOCAL-00028" summary="HW_90 Conditions">
+      <option name="closed" value="true" />
+      <created>1721385189856</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1721385189856</updated>
+    </task>
+    <task id="LOCAL-00029" summary="HW_84 Complete">
+      <option name="closed" value="true" />
+      <created>1721464457265</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1721464457265</updated>
+    </task>
+    <task id="LOCAL-00030" summary="HW_90 Render html">
+      <option name="closed" value="true" />
+      <created>1721597540668</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1721597540668</updated>
+    </task>
+    <task id="LOCAL-00031" summary="HW_90 Complete">
+      <option name="closed" value="true" />
+      <created>1721649797709</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1721649797709</updated>
+    </task>
+    <task id="LOCAL-00032" summary="HW_88 Complete">
+      <option name="closed" value="true" />
+      <created>1721652019940</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1721652019940</updated>
+    </task>
+    <task id="LOCAL-00033" summary="HW_88 Complete">
+      <option name="closed" value="true" />
+      <created>1721652068178</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1721652068178</updated>
+    </task>
+    <task id="LOCAL-00034" summary="HW_88 Complete">
+      <option name="closed" value="true" />
+      <created>1721652259240</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1721652259240</updated>
+    </task>
+    <task id="LOCAL-00035" summary="HW_88 Complete correct">
+      <option name="closed" value="true" />
+      <created>1721652335570</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1721652335570</updated>
+    </task>
+    <task id="LOCAL-00036" summary="HW_87 Complete">
+      <option name="closed" value="true" />
+      <created>1721657619589</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1721657619589</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Main. Add react-bootstap">
+      <option name="closed" value="true" />
+      <created>1721904077716</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1721904077716</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Main. Add react-bootstap modified">
+      <option name="closed" value="true" />
+      <created>1721905255665</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1721905255665</updated>
+    </task>
+    <task id="LOCAL-00039" summary="HW_88.1 Complete">
+      <option name="closed" value="true" />
+      <created>1721924391822</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1721924391822</updated>
+    </task>
+    <task id="LOCAL-00040" summary="HW_91 Complete Classwork">
+      <option name="closed" value="true" />
+      <created>1721999813193</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1721999813193</updated>
+    </task>
+    <task id="LOCAL-00041" summary="HW_91.1 Complete Homework fit Classwork">
+      <option name="closed" value="true" />
+      <created>1722001920783</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1722001920783</updated>
+    </task>
+    <task id="LOCAL-00042" summary="HW_91.1 Complete Homework fit Classwork">
+      <option name="closed" value="true" />
+      <created>1722079008506</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1722079008506</updated>
+    </task>
+    <task id="LOCAL-00043" summary="HW_92 Complete">
+      <option name="closed" value="true" />
+      <created>1722083982566</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1722083982566</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HW_77 temporary" />
-    <MESSAGE value="Main fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main fix" />
+    <MESSAGE value="HW_86 Without submit" />
+    <MESSAGE value="HW_86 Without submit with table" />
+    <MESSAGE value="HW_86 Without submit with table json submit" />
+    <MESSAGE value="HW_86 Submit no back" />
+    <MESSAGE value="HW_86 Submit no back without console.log" />
+    <MESSAGE value="HW_84 Temporary" />
+    <MESSAGE value="Main. Link bootstrap, prettier off." />
+    <MESSAGE value="HW_89 Card complete." />
+    <MESSAGE value="HW_84 import images" />
+    <MESSAGE value="Main fix dot html" />
+    <MESSAGE value="HW_87 Conditions" />
+    <MESSAGE value="HW_88 Conditions" />
+    <MESSAGE value="HW_90 Conditions" />
+    <MESSAGE value="HW_84 Complete" />
+    <MESSAGE value="HW_90 Render html" />
+    <MESSAGE value="HW_90 Complete" />
+    <MESSAGE value="HW_88 Complete" />
+    <MESSAGE value="HW_88 Complete correct" />
+    <MESSAGE value="HW_87 Complete" />
+    <MESSAGE value="Main. Add react-bootstap" />
+    <MESSAGE value="Main. Add react-bootstap modified" />
+    <MESSAGE value="HW_88.1 Complete" />
+    <MESSAGE value="HW_91 Complete Classwork" />
+    <MESSAGE value="HW_91.1 Complete Homework fit Classwork" />
+    <MESSAGE value="HW_92 Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_92 Complete" />
   </component>
 </project>
