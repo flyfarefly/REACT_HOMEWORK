@@ -1,9 +1,9 @@
-import Card from './components/Card.jsx';
+import TodoBox from './components/TodoBox.jsx';
 
 function App() {
   return (
     <>
-      <Card></Card>
+      <TodoBox></TodoBox>
     </>
   );
 }
