@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="HW 92 &#10;Checkout crash">
-      <change afterPath="$PROJECT_DIR$/vite-install-react/src/components/Post/Post.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-install-react/src/components/Post/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-install-react/src/components/Post/usersPost.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/App.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="HW 93 As a first approximation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -478,14 +469,21 @@
       <option name="project" value="LOCAL" />
       <updated>1722336197220</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="HW 93 As a first approximation">
+      <option name="closed" value="true" />
+      <created>1722337252610</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1722337252610</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HW_86 Without submit with table" />
     <MESSAGE value="HW_86 Without submit with table json submit" />
     <MESSAGE value="HW_86 Submit no back" />
     <MESSAGE value="HW_86 Submit no back without console.log" />
@@ -510,6 +508,7 @@
     <MESSAGE value="HW_91.1 Complete Homework fit Classwork" />
     <MESSAGE value="HW_92 Complete" />
     <MESSAGE value="HW 92 &#10;Checkout crash" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 92 &#10;Checkout crash" />
+    <MESSAGE value="HW 93 As a first approximation" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 93 As a first approximation" />
   </component>
 </project>
