@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="HW_92 Complete">
+    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="HW 92 &#10;Checkout crash">
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/components/Post/Post.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/components/Post/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/components/Post/usersPost.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite-install-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite-install-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +22,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JSX File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -26,7 +33,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw_92" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,6 +51,9 @@
     &quot;accountId&quot;: &quot;4407ed59-7858-4177-a953-92eb9ce35e0f&quot;
   }
 }</component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/vite-install-react/package.json" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -57,7 +67,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore_missing_gitignore": "true",
-    "list.type.of.created.stylesheet": "CSS",
+    "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -460,14 +470,21 @@
       <option name="project" value="LOCAL" />
       <updated>1722083982566</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="HW 92 &#10;Checkout crash">
+      <option name="closed" value="true" />
+      <created>1722336197220</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1722336197220</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HW_86 Without submit" />
     <MESSAGE value="HW_86 Without submit with table" />
     <MESSAGE value="HW_86 Without submit with table json submit" />
     <MESSAGE value="HW_86 Submit no back" />
@@ -492,6 +509,7 @@
     <MESSAGE value="HW_91 Complete Classwork" />
     <MESSAGE value="HW_91.1 Complete Homework fit Classwork" />
     <MESSAGE value="HW_92 Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_92 Complete" />
+    <MESSAGE value="HW 92 &#10;Checkout crash" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 92 &#10;Checkout crash" />
   </component>
 </project>
