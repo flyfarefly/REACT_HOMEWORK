@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="HW_92 Complete">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite-install-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +26,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="hw_92" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
