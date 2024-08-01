@@ -10,6 +10,11 @@ function TodoList() {
     setData((prevData) => [...prevData, todoItem]);
   };
 
+  const handleRemoveTodo = (id) => {
+    const updatedData = data.filter((todo) => todo.id !== id);
+    setData(updatedData);
+  };
+
   return (
     <div className="todo-list">
       <div className="text-center">
@@ -28,7 +33,11 @@ function TodoList() {
                   data-id={title + '_' + index}
                   xs={4}
                   className="mb-4">
-                  <TodoItem title={title} body={description} />
+                  <TodoItem
+                    title={title}
+                    body={description}
+                    handleRemoveTodo={() => handleRemoveTodo()}
+                  />
                 </Col>
               ))}
             </Row>
