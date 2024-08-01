@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="HW 94.1 Almost works">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/components/TodoItem/TodoItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/components/TodoItem/TodoItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/components/TodoList/TodoList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/components/TodoList/TodoList.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="HW 94.1 Almost works delete react" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -477,15 +473,29 @@
       <option name="project" value="LOCAL" />
       <updated>1722346045966</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="HW 94.1 Almost works delete">
+      <option name="closed" value="true" />
+      <created>1722523967279</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1722523967279</updated>
+    </task>
+    <task id="LOCAL-00047" summary="HW 94.1 Almost works delete react">
+      <option name="closed" value="true" />
+      <created>1722524073148</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1722524073148</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HW_86 Without submit with table json submit" />
-    <MESSAGE value="HW_86 Submit no back" />
     <MESSAGE value="HW_86 Submit no back without console.log" />
     <MESSAGE value="HW_84 Temporary" />
     <MESSAGE value="Main. Link bootstrap, prettier off." />
@@ -509,6 +519,8 @@
     <MESSAGE value="HW_92 Complete" />
     <MESSAGE value="HW 94 As a first approximation rewrite func component" />
     <MESSAGE value="HW 94.1 Almost works" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 94.1 Almost works" />
+    <MESSAGE value="HW 94.1 Almost works delete" />
+    <MESSAGE value="HW 94.1 Almost works delete react" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 94.1 Almost works delete react" />
   </component>
 </project>
