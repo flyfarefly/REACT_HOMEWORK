@@ -5,8 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="HW_92 Complete">
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/components/CustomTable/CustomTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/components/CustomTable/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/pages/CreatePost/CreatePost.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/pages/CreatePost/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/pages/EditPost/EditPost.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/pages/EditPost/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/pages/Home/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/pages/Home/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/pages/NotFound/NotFound.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/pages/NotFound/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/pages/Posts/Posts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/pages/Posts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/pages/SinglePost/SinglePost.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/pages/SinglePost/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/routerConfig/RouterConfig.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/routerConfig/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/routerConfig/routeNames.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/routerConfig/routerObjects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/templates/BaseTemplate/BaseTemplate.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/templates/BaseTemplate/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite-install-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite-install-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/components/Card.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/main.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +42,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JSX File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -26,7 +52,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw_92" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,6 +83,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "D:/MOLCHANOFF IT/IT HILLEL/Homework/REACT_HOMEWORKS/vite-install-react/src/pages/NotFound",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -70,7 +97,15 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\pages\NotFound" />
+      <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\pages\CreatePost" />
+      <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\pages\EditPost" />
+      <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\pages\SinglePost" />
+      <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\pages\Posts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\components\Table" />
       <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\components\List" />
       <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\components\TodoList" />
       <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\components\TodoItem" />

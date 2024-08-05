@@ -1,11 +1,10 @@
-import Card from './components/Card.jsx';
+import RouterConfig from './routerConfig/RouterConfig.jsx';
+import { Container } from 'react-bootstrap';
 
-function App() {
+export default function App() {
   return (
-    <>
-      <Card></Card>
-    </>
+    <Container>
+      <RouterConfig />
+    </Container>
   );
 }
-
-export default App;
