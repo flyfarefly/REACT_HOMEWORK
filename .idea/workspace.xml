@@ -4,41 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="HW_95 Classwork worked">
-      <change afterPath="$PROJECT_DIR$/vite-install-react/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-install-react/src/components/TodoForm/TodoForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-install-react/src/components/TodoItem/TodoItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-install-react/src/components/TodoItem/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-install-react/src/components/TodoList/TodoList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-install-react/src/components/TodoList/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-install-react/src/pages/TodoItemPage/TodoItemPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-install-react/src/pages/TodoItemPage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-install-react/src/utils/localStorage.js" afterDir="false" />
+    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="HW_95.1 Homework complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/components/CustomTable/CustomTable.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/components/CustomTable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/components/TodoForm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/CreatePost/CreatePost.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/CreatePost/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/EditPost/EditPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/pages/AllTodosPage/AllTodosPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/EditPost/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/pages/AllTodosPage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/AllTodosPage/AllTodosPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/pages/AllTodosPage/AllTodosPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/pages/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/pages/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/NotFound/NotFound.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/NotFound/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/Posts/Posts.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/Posts/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/SinglePost/SinglePost.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/SinglePost/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/routerConfig/RouterConfig.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/routerConfig/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/routerConfig/routeNames.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/routerConfig/routerObjects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/templates/BaseTemplate/BaseTemplate.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/templates/BaseTemplate/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -525,14 +494,21 @@
       <option name="project" value="LOCAL" />
       <updated>1723110448624</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="HW_95.1 Homework complete">
+      <option name="closed" value="true" />
+      <created>1723124424395</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1723124424395</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HW_86 Without submit with table json submit" />
     <MESSAGE value="HW_86 Submit no back" />
     <MESSAGE value="HW_86 Submit no back without console.log" />
     <MESSAGE value="HW_84 Temporary" />
@@ -557,6 +533,7 @@
     <MESSAGE value="HW_92 Complete" />
     <MESSAGE value="HW_95 Classwork" />
     <MESSAGE value="HW_95 Classwork worked" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_95 Classwork worked" />
+    <MESSAGE value="HW_95.1 Homework complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_95.1 Homework complete" />
   </component>
 </project>
