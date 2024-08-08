@@ -1,14 +1,38 @@
-import React from 'react';
+// eslint-disable-next-line no-unused-vars
+import React, { useEffect, useState } from 'react';
+import BaseTemplate from '../../templates/BaseTemplate';
+import { useParams } from 'react-router-dom';
+import { v4 as uuidv4 } from 'uuid';
 
-function SinglePost(props) {
+const SinglePost = () => {
+  const params = useParams();
+  const [currentPost, setCurrentPost] = useState(null);
+
+  useEffect(() => {
+    const fetchPosts = async () => {
+      const req = await fetch(
+        'https://jsonplaceholder.typicode.com/posts/' + params.postId
+      );
+      const resp = await req.json();
+      setCurrentPost(resp);
+    };
+    fetchPosts();
+  }, [params]);
+
   return (
-    <div>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab commodi cum
-      distinctio eligendi est exercitationem ipsam placeat porro, quos sequi.
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem commodi
-      impedit nesciunt odit officia. Amet ex quam quos sunt tempora?
-    </div>
+    <BaseTemplate title="Single Post">
+      <ul>
+        {currentPost &&
+          Object.keys(currentPost).map((key) => {
+            return (
+              <li key={uuidv4()}>
+                <b>{key}</b>: {currentPost[key]}
+              </li>
+            );
+          })}
+      </ul>
+    </BaseTemplate>
   );
-}
+};
 
 export default SinglePost;
