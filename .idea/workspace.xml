@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="HW_95.1 Homework complete">
+    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="HW_95.1 Homework complete nice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/AllTodosPage/AllTodosPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/pages/AllTodosPage/AllTodosPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/pages/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/components/TodoItem/TodoItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/components/TodoItem/TodoItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/TodoItemPage/TodoItemPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/pages/TodoItemPage/TodoItemPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -502,14 +503,21 @@
       <option name="project" value="LOCAL" />
       <updated>1723124424395</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="HW_95.1 Homework complete nice">
+      <option name="closed" value="true" />
+      <created>1723125368463</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1723125368463</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HW_86 Submit no back" />
     <MESSAGE value="HW_86 Submit no back without console.log" />
     <MESSAGE value="HW_84 Temporary" />
     <MESSAGE value="Main. Link bootstrap, prettier off." />
@@ -534,6 +542,7 @@
     <MESSAGE value="HW_95 Classwork" />
     <MESSAGE value="HW_95 Classwork worked" />
     <MESSAGE value="HW_95.1 Homework complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_95.1 Homework complete" />
+    <MESSAGE value="HW_95.1 Homework complete nice" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_95.1 Homework complete nice" />
   </component>
 </project>

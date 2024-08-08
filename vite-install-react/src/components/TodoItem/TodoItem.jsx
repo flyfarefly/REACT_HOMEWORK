@@ -24,10 +24,10 @@ function TodoItem({ todo, onDelete }) {
           sx={{ mr: 1 }}>
           Delete
         </Button>
-        <Button variant="contained" component={Link} to={`/todo/${todo.id}`}>
-          View
-        </Button>
       </Box>
+      <Button variant="contained" component={Link} to={`/todo/${todo.id}`}>
+        View
+      </Button>
     </Box>
   );
 }

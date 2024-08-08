@@ -44,6 +44,9 @@ function TodoItemPage() {
           sx={{ mr: 2 }}>
           Delete
         </Button>
+        <Button variant="contained" component={Link} to={`/todo/${todo.id}`}>
+          View
+        </Button>
         <Button variant="contained" component={Link} to="/">
           Повернутися на головну сторінку
         </Button>
