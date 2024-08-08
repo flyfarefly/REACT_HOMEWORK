@@ -35,6 +35,7 @@ function TodoForm({ onSubmit, initialValues }) {
       <Box mb={2}>
         <TextField
           fullWidth
+          multiline
           id="description"
           name="description"
           label="Description"
