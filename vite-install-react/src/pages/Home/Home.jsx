@@ -1,64 +1,44 @@
-import React, { useEffect, useState } from 'react';
-import BaseTemplate from '../../templates/BaseTemplate';
-import CustomTable from '../../components/CustomTable';
-import { useNavigate } from 'react-router-dom';
-import routeNames from '../../routerConfig/routeNames';
+// eslint-disable-next-line no-unused-vars
+import React, { useState, useEffect } from 'react';
+import TodoForm from '../../components/TodoForm';
+import { getTodos, saveTodos } from '../../utils/localStorage';
+import { Link, useNavigate } from 'react-router-dom';
+import { Button, Box } from '@mui/material';
 
-const tableHeaders = [
-  {
-    title: `ID`,
-    key: 'id',
-    width: '5%'
-  },
-  {
-    title: 'userId',
-    key: 'userId',
-    width: '10%'
-  },
-  {
-    title: 'Title',
-    key: 'title',
-    width: '25%'
-  },
-  {
-    title: 'body',
-    key: 'body',
-    width: '60%'
-  }
-];
-
-const Home = () => {
+function Home() {
+  const [todos, setTodos] = useState([]);
   const navigate = useNavigate();
-  const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    const fetchPosts = async () => {
-      const req = await fetch('https://jsonplaceholder.typicode.com/posts');
-      const resp = await req.json();
-      setPosts(resp);
-    };
-    fetchPosts();
+    setTodos(getTodos());
   }, []);
 
-  const handleRowClick = (data) => {
-    navigate(routeNames.posts + '/' + data.id);
+  const handleAddTodo = (todo) => {
+    const newTodo = { ...todo, id: Date.now().toString() };
+    const newTodos = [...todos, newTodo];
+    setTodos(newTodos);
+    saveTodos(newTodos);
+    navigate(`/todo/${newTodo.id}`);
   };
 
   return (
-    <BaseTemplate title="List of Posts" className="my-5">
-      <div className="mt-5">
-        {posts.length ? (
-          <CustomTable
-            headers={tableHeaders}
-            data={posts}
-            onRowClick={handleRowClick}
-          />
-        ) : (
-          'Loading...'
-        )}
-      </div>
-    </BaseTemplate>
+    <Box p={2} m={3} bgcolor="#f9f9f9" borderRadius={4}>
+      <Box mb={3}>
+        <h1>Головна сторінка</h1>
+      </Box>
+      <Box mb={3}>
+        <TodoForm
+          onSubmit={handleAddTodo}
+          initialValues={{ title: '', description: '', status: 'pending' }}
+        />
+      </Box>
+      <Box>
+        <Button variant="contained" component={Link} to="/all-todos">
+          Переглянути всі Todo
+        </Button>
+      </Box>
+    </Box>
   );
-};
+}
 
 export default Home;

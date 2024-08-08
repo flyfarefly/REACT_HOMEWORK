@@ -4,15 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="HW_95 Classwork">
+    <list default="true" id="36ed0f01-9c93-4005-b604-3d6e32717407" name="Changes" comment="HW_95 Classwork worked">
+      <change afterPath="$PROJECT_DIR$/vite-install-react/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/components/TodoForm/TodoForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/components/TodoItem/TodoItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/components/TodoItem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/components/TodoList/TodoList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/components/TodoList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/pages/TodoItemPage/TodoItemPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/pages/TodoItemPage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-install-react/src/utils/localStorage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite-install-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite-install-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/components/CustomTable/CustomTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/components/CustomTable/CustomTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/components/CustomTable/CustomTable.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/components/CustomTable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/components/TodoForm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/CreatePost/CreatePost.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/CreatePost/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/EditPost/EditPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/pages/AllTodosPage/AllTodosPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/EditPost/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/pages/AllTodosPage/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/pages/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/NotFound/NotFound.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/pages/NotFound/NotFound.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/SinglePost/SinglePost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/pages/SinglePost/SinglePost.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-install-react/src/routerConfig/routeNames.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/routerConfig/routeNames.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite-install-react/src/pages/Home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/NotFound/NotFound.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/NotFound/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/Posts/Posts.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/Posts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/SinglePost/SinglePost.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/pages/SinglePost/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/routerConfig/RouterConfig.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/routerConfig/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/routerConfig/routeNames.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/routerConfig/routerObjects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/templates/BaseTemplate/BaseTemplate.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-install-react/src/templates/BaseTemplate/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +48,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="JSX File" />
         <option value="JavaScript File" />
+        <option value="JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -32,7 +58,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="hw_95" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,7 +89,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "D:/MOLCHANOFF IT/IT HILLEL/Homework/REACT_HOMEWORKS/vite-install-react/src/pages/NotFound",
+    "last_opened_file_path": "D:/MOLCHANOFF IT/IT HILLEL/Homework/REACT_HOMEWORKS/vite-install-react/src/pages/TodoItemPage",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -78,18 +104,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\pages\TodoItemPage" />
       <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\pages\NotFound" />
       <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\pages\CreatePost" />
       <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\pages\EditPost" />
       <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\pages\SinglePost" />
-      <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\pages\Posts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react" />
+      <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\components" />
       <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\components\Table" />
       <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\components\List" />
       <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\components\TodoList" />
-      <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\components\TodoItem" />
-      <recent name="D:\MOLCHANOFF IT\IT HILLEL\Homework\REACT_HOMEWORKS\vite-install-react\src\components\TodoForm" />
     </key>
   </component>
   <component name="RunManager">
@@ -483,14 +509,29 @@
       <option name="project" value="LOCAL" />
       <updated>1722868100345</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="HW_95 Classwork worked">
+      <option name="closed" value="true" />
+      <created>1723110344500</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1723110344588</updated>
+    </task>
+    <task id="LOCAL-00046" summary="HW_95 Classwork worked">
+      <option name="closed" value="true" />
+      <created>1723110448624</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1723110448624</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HW_86 Without submit with table" />
     <MESSAGE value="HW_86 Without submit with table json submit" />
     <MESSAGE value="HW_86 Submit no back" />
     <MESSAGE value="HW_86 Submit no back without console.log" />
@@ -515,6 +556,7 @@
     <MESSAGE value="HW_91.1 Complete Homework fit Classwork" />
     <MESSAGE value="HW_92 Complete" />
     <MESSAGE value="HW_95 Classwork" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_95 Classwork" />
+    <MESSAGE value="HW_95 Classwork worked" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_95 Classwork worked" />
   </component>
 </project>

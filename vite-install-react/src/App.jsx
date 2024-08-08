@@ -1,10 +1,19 @@
-import RouterConfig from './routerConfig/RouterConfig.jsx';
-import { Container } from 'react-bootstrap';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import TodoItemPage from './pages/TodoItemPage';
+import AllTodosPage from './pages/AllTodosPage';
 
-export default function App() {
+function App() {
   return (
-    <Container>
-      <RouterConfig />
-    </Container>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/todo/:id" element={<TodoItemPage />} />
+        <Route path="/all-todos" element={<AllTodosPage />} />
+      </Routes>
+    </Router>
   );
 }
+
+export default App;
