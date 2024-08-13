@@ -1,4 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
+import * as actions from '../store/actions/contactActions';
 
 const initialState = {
   contacts: []

@@ -1,3 +1,4 @@
+import React from 'react';
 import { useDispatch } from 'react-redux';
 import { addContact } from '../store/contactsSlice';
 import { useNavigate } from 'react-router-dom';
@@ -5,6 +6,7 @@ import { TextField, Button, Container } from '@mui/material';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import { css } from '@emotion/react';
+import { MuiTelInput } from 'mui-tel-input';
 
 const formStyle = css`
   display: flex;
@@ -30,11 +32,8 @@ const AddContact = () => {
     name: Yup.string()
       .min(2, 'Must be 2 characters or more')
       .max(10, 'Must be 10 characters or less')
-      .required('Title is required!'),
-    phone: Yup.string()
-      .min(2, 'Must be 2 characters or more')
-      .max(13, 'Must be 13 characters')
-      .required('Phone number is required')
+      .required('Name is required!'),
+    phone: Yup.string().required('Phone number is required')
   });
 
   return (
@@ -46,7 +45,7 @@ const AddContact = () => {
           dispatch(addContact({ id: Date.now(), ...values }));
           navigate('/');
         }}>
-        {({ errors, touched }) => (
+        {({ errors, touched, setFieldValue }) => (
           <Form css={formStyle}>
             <h1 css={titleStyle}>Add Contact</h1>
             <Field
@@ -56,13 +55,17 @@ const AddContact = () => {
               error={touched.name && !!errors.name}
               helperText={touched.name && errors.name}
             />
-            <Field
-              name="phone"
-              as={TextField}
-              label="Phone"
-              error={touched.phone && !!errors.phone}
-              helperText={touched.phone && errors.phone}
-            />
+            <Field name="phone">
+              {({ field }) => (
+                <MuiTelInput
+                  {...field}
+                  label="Phone"
+                  onChange={(value) => setFieldValue('phone', value)}
+                  error={touched.phone && !!errors.phone}
+                  helperText={touched.phone && errors.phone}
+                />
+              )}
+            </Field>
             <Button
               type="submit"
               variant="contained"
