@@ -27,8 +27,14 @@ const AddContact = () => {
   const navigate = useNavigate();
 
   const validationSchema = Yup.object({
-    name: Yup.string().required('Required'),
-    phone: Yup.string().required('Required')
+    name: Yup.string()
+      .min(2, 'Must be 2 characters or more')
+      .max(10, 'Must be 10 characters or less')
+      .required('Title is required!'),
+    phone: Yup.string()
+      .min(2, 'Must be 2 characters or more')
+      .max(13, 'Must be 13 characters')
+      .required('Phone number is required')
   });
 
   return (
